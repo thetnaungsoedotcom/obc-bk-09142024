@@ -1,0 +1,309 @@
+body.login {
+    border-top: 15px solid #efc032;
+    font: 13px normal Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: #212a32;
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#login {
+    margin-top: 20px;
+    width: 485px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 100;
+    position: relative;
+}
+
+.login form .input, 
+.login input[type=password], 
+.login input[type=text] {
+    font-size: 17px;
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 50px 75px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #efc032;
+    box-shadow: 0 1px 5px rgb(239, 192, 50, .3);
+    border-radius: 0 65px 80px 0;
+}
+
+.login label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #464646;
+}
+
+.login h1 {
+    background: #fff url(../images/logo.png) no-repeat center center;
+    background-size: 55%;
+    width: 50%;
+    height: 95px;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.55);
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.login h1 a {	
+    background-image: none !important; 
+    height: 100%; 
+    width: 100%;
+}
+
+.login #backtoblog, 
+.login #nav {
+    padding: 0;
+}
+
+.login #nav a, 
+.login #backtoblog a { 
+    color: #a2a19f;
+}
+
+.login #nav a:hover, 
+.login #backtoblog a:hover { 
+    color:#efc032; 
+    text-decoration:none 
+}
+
+input[type=checkbox]:focus, 
+input[type=color]:focus, 
+input[type=date]:focus, 
+input[type=datetime-local]:focus, 
+input[type=datetime]:focus, 
+input[type=email]:focus, 
+input[type=month]:focus, 
+input[type=number]:focus, 
+input[type=password]:focus, 
+input[type=radio]:focus, 
+input[type=search]:focus, 
+input[type=tel]:focus, 
+input[type=text]:focus, 
+input[type=time]:focus, 
+input[type=url]:focus, 
+input[type=week]:focus, 
+select:focus, 
+textarea:focus {
+    background: #f1f1f1;
+    border-color: #3c4145;
+    outline: 2px solid transparent;
+    box-shadow: 0 0 0 1px rgb(33, 42, 50, .22);
+}
+
+.wp-core-ui .button-primary {
+    box-shadow: 0 1px 0 #5f5f5f;
+    background: rgb(68 67 68);
+    border-color: #4f4f4f #4f4f4f #4f4f4f;
+    background: linear-gradient(0deg, rgb(33 42 50) 0%, rgb(47 57 67) 100%);
+    text-shadow: none;
+}
+
+.wp-core-ui .button-primary.focus, 
+.wp-core-ui .button-primary.hover, 
+.wp-core-ui .button-primary:focus, 
+.wp-core-ui .button-primary:hover {
+    background: #212a32;
+    border-color: #171d22;
+}
+
+.wp-core-ui .button-primary.focus, 
+.wp-core-ui .button-primary:focus {
+    box-shadow: 0 1px 1px rgb(255, 194, 14, .68), 0 0 4px 1px rgb(255, 194, 14, 7);
+}
+
+.login form .forgetmenot {
+    margin-bottom: 0;
+    float: none;
+}
+
+.wp-core-ui .button-group.button-large .button, 
+.wp-core-ui .button.button-large {
+    height: auto;
+    line-height: auto;
+    padding: 10px 15px 10px 15px;
+}
+
+.wp-core-ui .button {
+    font-size: 16px;
+    height: auto;
+    line-height: auto;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.login #login_error, 
+.login .message, 
+.login .success {
+    border-left: 4px solid #efc032;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.55);
+}
+
+#login #nav a.ce {
+    float: right;
+	text-indent: -9990em;
+    width: 55px;
+    height: 55px;
+    background: #fff url(../images/logo-dd.png) no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.55);
+    padding: 0;
+    position: absolute;
+    top: 127px;
+    right: -6px;
+    -webkit-animation: shake 5s infinite;    
+    -ms-animation: shake 5s infinite;    
+    -moz-animation: shake 5s infinite;    
+    -o-animation: shake 5s infinite;    
+    animation: shake 5s infinite;
+
+    -webkit-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+
+    -webkit-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+
+#login #nav a.ce:focus {
+    box-shadow: 0 0 0 1px rgb(239, 192, 50, .48), 0 0 2px 1px rgb(239, 192, 50, .5)
+}
+  
+@-webkit-keyframes shake {
+    0%  { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+    10% { -webkit-transform: translate(-1px, -2px) rotate(-2deg); }
+    20% { -webkit-transform: translate(-3px, 0px) rotate(3deg); }
+    30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+    40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -webkit-transform: translate(2px, 1px) rotate(-2deg); }
+    80% { -webkit-transform: translate(-1px, -1px) rotate(3deg); }
+    90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+    100%{ -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+@-ms-keyframes shake {
+    0%  { -ms-transform: translate(2px, 1px) rotate(0deg); }
+    10% { -ms-transform: translate(-1px, -2px) rotate(-2deg); }
+    20% { -ms-transform: translate(-3px, 0px) rotate(3deg); }
+    30% { -ms-transform: translate(0px, 2px) rotate(0deg); }
+    40% { -ms-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -ms-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -ms-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -ms-transform: translate(2px, 1px) rotate(-2deg); }
+    80% { -ms-transform: translate(-1px, -1px) rotate(3deg); }
+    90% { -ms-transform: translate(2px, 2px) rotate(0deg); }
+    100%{ -ms-transform: translate(1px, -2px) rotate(-1deg); }
+  }
+@-moz-keyframes shake {
+    0%  { -moz-transform: translate(2px, 1px) rotate(0deg); }
+    10% { -moz-transform: translate(-1px, -2px) rotate(-2deg); }
+    20% { -moz-transform: translate(-3px, 0px) rotate(3deg); }
+    30% { -moz-transform: translate(0px, 2px) rotate(0deg); }
+    40% { -moz-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -moz-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -moz-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -moz-transform: translate(2px, 1px) rotate(-2deg); }
+    80% { -moz-transform: translate(-1px, -1px) rotate(3deg); }
+    90% { -moz-transform: translate(2px, 2px) rotate(0deg); }
+    100%{ -moz-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@-o-keyframes shake {
+    0%  { -o-transform: translate(2px, 1px) rotate(0deg); }
+    10% { -o-transform: translate(-1px, -2px) rotate(-2deg); }
+    20% { -o-transform: translate(-3px, 0px) rotate(3deg); }
+    30% { -o-transform: translate(0px, 2px) rotate(0deg); }
+    40% { -o-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -o-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -o-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -o-transform: translate(2px, 1px) rotate(-2deg); }
+    80% { -o-transform: translate(-1px, -1px) rotate(3deg); }
+    90% { -o-transform: translate(2px, 2px) rotate(0deg); }
+    100%{ -o-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes shake {
+    0%  { transform: translate(2px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-2deg); }
+    20% { transform: translate(-3px, 0px) rotate(3deg); }
+    30% { transform: translate(0px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(2px, 1px) rotate(-2deg); }
+    80% { transform: translate(-1px, -1px) rotate(3deg); }
+    90% { transform: translate(2px, 2px) rotate(0deg); }
+    100%{ transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@media (max-width: 767.98px) { 
+    #login {
+        width: 70%;
+    }
+    .login h1 {
+        height: 95px;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    #login {
+        width: 100%;
+    }
+    .login form {
+        margin: 20px 30px;
+    }
+    #login #nav a.ce {
+        right: 25px;
+    }
+    .login #backtoblog, .login #nav {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 413.98px) {  
+    .login form {
+        margin: 20px 15px;
+        padding: 50px 50px;
+    }
+    #login #nav a.ce {
+        right: 9px;
+    }
+    .login #backtoblog, .login #nav {
+        padding: 0 15px;
+    }
+}

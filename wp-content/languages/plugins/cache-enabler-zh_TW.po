@@ -1,0 +1,268 @@
+# Translation of Plugins - Cache Enabler - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Cache Enabler - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-10-27 07:16:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Cache Enabler - Stable (latest release)\n"
+
+#: inc/cache_enabler_cli.class.php:92
+msgid "Sites cache cleared."
+msgstr "網站快取已清除。"
+
+#: inc/cache_enabler_cli.class.php:82
+msgid "Page cache cleared."
+msgstr "頁面快取已清除。"
+
+#: inc/cache_enabler_cli.class.php:80
+msgid "Pages cache cleared."
+msgstr "頁面快取已清除。"
+
+#: inc/cache_enabler.class.php:2755
+msgid "Save Changes and Clear Site Cache"
+msgstr "儲存設定並清除網站快取"
+
+#: inc/cache_enabler.class.php:2754
+msgid "Save Changes"
+msgstr "儲存設定"
+
+#: inc/cache_enabler.class.php:2744
+msgid "A regex matching cookies that should bypass the cache."
+msgstr "快取機制會略過 Cookie 符合規則運算式的對應內容。"
+
+#: inc/cache_enabler.class.php:2741
+msgid "Cookies"
+msgstr "Cookie"
+
+#: inc/cache_enabler.class.php:2736 inc/cache_enabler.class.php:2746
+msgid "Default if unset:"
+msgstr "未設定時的預設值:"
+
+#: inc/cache_enabler.class.php:2734
+msgid "A regex matching query strings that should bypass the cache."
+msgstr "快取機制會略過查詢字串符合規則運算式的對應內容。"
+
+#: inc/cache_enabler.class.php:2731
+msgid "Query Strings"
+msgstr "查詢字串"
+
+#: inc/cache_enabler.class.php:2725
+msgid "A regex matching page paths that should bypass the cache."
+msgstr "快取機制會略過頁面路徑符合規則運算式的對應內容。"
+
+#: inc/cache_enabler.class.php:2722
+msgid "Page Paths"
+msgstr "頁面路徑"
+
+#: inc/cache_enabler.class.php:2717 inc/cache_enabler.class.php:2726
+#: inc/cache_enabler.class.php:2735 inc/cache_enabler.class.php:2745
+msgid "Example:"
+msgstr "範例:"
+
+#. translators: %s: ,
+#: inc/cache_enabler.class.php:2712
+msgid "Post IDs separated by a %s that should bypass the cache."
+msgstr "快取機制會略過文章 ID 對應的文章。請以 %s 分隔多個文章 ID。"
+
+#: inc/cache_enabler.class.php:2705
+msgid "Post IDs"
+msgstr "文章 ID"
+
+#: inc/cache_enabler.class.php:2701
+msgid "Cache Exclusions"
+msgstr "快取排除項目"
+
+#. translators: %s: Form field control for 'excluding' or 'including' inline
+#. CSS and JavaScript during HTML minification.
+#: inc/cache_enabler.class.php:2690
+msgid "Minify HTML in cached pages %s inline CSS and JavaScript."
+msgstr "快取頁面中的最小化 HTML %s 內嵌 CSS 及 JavaScript"
+
+#: inc/cache_enabler.class.php:2681
+msgid "including"
+msgstr "包含"
+
+#: inc/cache_enabler.class.php:2680
+msgid "excluding"
+msgstr "排除"
+
+#: inc/cache_enabler.class.php:2673
+msgid "Minification"
+msgstr "最小化"
+
+#: inc/cache_enabler.class.php:2668
+msgid "Create a cached version pre-compressed with Gzip."
+msgstr "使用 Gzip 的預先壓縮方式建立快取版本"
+
+#: inc/cache_enabler.class.php:2668
+msgid "Create a cached version pre-compressed with Brotli or Gzip."
+msgstr "使用 Brotli 或 Gzip 的預先壓縮方式建立快取版本"
+
+#: inc/cache_enabler.class.php:2661
+msgid "Create a cached version for mobile devices."
+msgstr "為行動裝置建立快取版本"
+
+#. translators: %s: Optimus
+#: inc/cache_enabler.class.php:2651
+msgid "Create a cached version for WebP support. Convert your images to WebP with %s."
+msgstr "為支援 WebP 格式圖片建立快取版本 (使用 %s 轉換圖片為 WebP 格式)"
+
+#: inc/cache_enabler.class.php:2645
+msgid "Versions"
+msgstr "版本"
+
+#: inc/cache_enabler.class.php:2640
+msgid "Clear the site cache if a plugin has been activated or deactivated."
+msgstr "外掛啟用或停用後清除網站快取"
+
+#: inc/cache_enabler.class.php:2633
+msgid "Clear the site cache if a user has been added, updated, or deleted (instead of the user cache)."
+msgstr "新增、更新或刪除使用者後清除網站快取 (而非清除使用者快取)"
+
+#: inc/cache_enabler.class.php:2626
+msgid "Clear the site cache if a term has been added, updated, or deleted (instead of the term cache)."
+msgstr "新增、更新或刪除分類法詞彙後清除網站快取 (而非清除分類法詞彙快取)"
+
+#: inc/cache_enabler.class.php:2619
+msgid "Clear the site cache if a comment has been posted, updated, spammed, or trashed (instead of the comment cache)."
+msgstr "留言發佈、更新、標示為垃圾留言或移至回收桶後清除網站快取 (而非清除留言快取)"
+
+#: inc/cache_enabler.class.php:2612
+msgid "Clear the site cache if any post type has been published, updated, or trashed (instead of the post cache)."
+msgstr "文章發佈、更新或移至回收桶後清除網站快取 (而非清除文章快取)"
+
+#: inc/cache_enabler.class.php:2609
+msgid "Clearing"
+msgstr "清除條件"
+
+#. translators: %s: Form field input for number of hours.
+#: inc/cache_enabler.class.php:2601
+msgid "Cached pages expire %s hours after being created."
+msgstr "快取頁面會在建立 %s 小時後到期"
+
+#: inc/cache_enabler.class.php:2593
+msgid "Expiration"
+msgstr "到期時間"
+
+#: inc/cache_enabler.class.php:2589
+msgid "Cache Behavior"
+msgstr "快取行為"
+
+#. translators: %s: KeyCDN
+#: inc/cache_enabler.class.php:2577
+msgid "Combine Cache Enabler with %s for even better WordPress performance and achieve the next level of caching with a CDN."
+msgstr "Cache Enabler 與 %s 搭配使用，WordPress 網站便能獲得更好的效能，並透過 CDN 達到更高水準的快取。"
+
+#. translators: 1. Cache Enabler 2. define( 'WP_CACHE', true ); 3.
+#. wp-config.php 4. require_once ABSPATH . 'wp-settings.php';
+#: inc/cache_enabler.class.php:2562
+msgid "%1$s requires %2$s to be set. Please set this in the %3$s file (must be before %4$s)."
+msgstr "%1$s 需要設定 %2$s。請在 %3$s 檔案中進行設定 (必須設定於 %4$s 前方)。"
+
+#: inc/cache_enabler.class.php:2394 inc/cache_enabler.class.php:2554
+msgid "Cache Enabler Settings"
+msgstr "Cache Enabler 設定"
+
+#. translators: 1. Autoptimize 2. Cache Enabler Settings
+#: inc/cache_enabler.class.php:2389
+msgid "%1$s HTML optimization is enabled. Please disable HTML minification in the %2$s."
+msgstr "%1$s 的 HTML 最佳化已啟用。請在 [%2$s] 中停用 HTML 最小化。"
+
+#: inc/cache_enabler.class.php:2376
+msgid "file permissions"
+msgstr "檔案權限"
+
+#. translators: 1. Cache Enabler 2. 755 3. /path/to/wp-content/cache 4. file
+#. permissions
+#: inc/cache_enabler.class.php:2369
+msgid "%1$s requires write permissions %2$s in the %3$s directory. Please change the %4$s."
+msgstr "%1$s 需要在 %3$s 目錄中有 %2$s 寫入權限。請變更%4$s。"
+
+#: inc/cache_enabler.class.php:2354
+msgid "Permalink Settings"
+msgstr "[永久連結] 設定"
+
+#. translators: 1. Cache Enabler 2. Permalink Settings
+#: inc/cache_enabler.class.php:2349
+msgid "%1$s requires a custom permalink structure. Please enable a custom structure in the %2$s."
+msgstr "%1$s 需要自訂永久連結結構。請在 %2$s中啟用自訂結構。"
+
+#. translators: 1. Cache Enabler 2. /path/to/index.php 3.
+#. CACHE_ENABLER_INDEX_FILE 4. wp-config.php
+#: inc/cache_enabler.class.php:2334
+msgid "%1$s was unable to find the WordPress installation directory index file at %2$s. Please define the %3$s constant in your %4$s file as the full path to the location of this file."
+msgstr "%1$s 無法在 %2$s 中找到 WordPress 網站安裝目錄的索引檔案，請在 %4$s 檔案的 %3$s 常數中定義這個索引檔案的完整路徑。"
+
+#. translators: 1. Cache Enabler 2. advanced-cache.php 3.
+#. /path/to/wp-content/plugins/cache-enabler 4. /path/to/wp-content
+#: inc/cache_enabler.class.php:2319
+msgid "%1$s was unable to create the required %2$s drop-in file. You can manually create it by locating the sample file in the %3$s directory, editing it as needed, and then saving it in the %4$s directory."
+msgstr "%1$s 無法建立必要的 %2$s 強化外掛檔案。網站管理員請在 %3$s 目錄中找到範例檔案並手動建立檔案 (如有必要請手動編輯)，然後將檔案儲存至 %4$s 目錄。"
+
+#. translators: 1. Cache Enabler 2. WordPress version (e.g. 5.1)
+#: inc/cache_enabler.class.php:2306
+msgid "%1$s requires WordPress %2$s or higher to function properly. Please update WordPress or disable the plugin."
+msgstr "%1$s 需要 WordPress %2$s 或更新版本才能正確執行，請更新 WordPress 或停用這個外掛。"
+
+#. translators: 1. Cache Enabler 2. PHP version (e.g. 5.6)
+#: inc/cache_enabler.class.php:2293
+msgid "%1$s requires PHP %2$s or higher to function properly. Please update PHP or disable the plugin."
+msgstr "%1$s 需要 PHP %2$s 或更新版本才能正確執行，請更新 PHP 或停用這個外掛。"
+
+#: inc/cache_enabler.class.php:1377 inc/cache_enabler_cli.class.php:70
+#: inc/cache_enabler_cli.class.php:94
+msgid "Site cache cleared."
+msgstr "網站快取已清除。"
+
+#: inc/cache_enabler.class.php:1377 inc/cache_enabler_cli.class.php:70
+msgid "Network cache cleared."
+msgstr "多站網路快取已清除。"
+
+#: inc/cache_enabler.class.php:1255 inc/cache_enabler.class.php:1256
+msgid "Clear Page Cache"
+msgstr "清除頁面快取"
+
+#: inc/cache_enabler.class.php:1231
+msgid "Clear Site Cache"
+msgstr "清除網站快取"
+
+#: inc/cache_enabler.class.php:1231
+msgid "Clear Network Cache"
+msgstr "清除多站網路快取"
+
+#: inc/cache_enabler.class.php:1209
+msgid "Cache Size"
+msgstr "快取大小"
+
+#: inc/cache_enabler.class.php:1208
+msgid "Empty"
+msgstr "暫無"
+
+#: inc/cache_enabler.class.php:1178
+msgid "Documentation"
+msgstr "線上說明"
+
+#: inc/cache_enabler.class.php:1151
+msgid "Settings"
+msgstr "設定"
+
+#. Author URI of the plugin
+msgid "https://www.keycdn.com"
+msgstr "https://www.keycdn.com"
+
+#. Author of the plugin
+msgid "KeyCDN"
+msgstr "KeyCDN"
+
+#. Description of the plugin
+msgid "Simple and fast WordPress caching plugin."
+msgstr "易用、快速的 WordPress 快取外掛。"
+
+#. Plugin Name of the plugin
+msgid "Cache Enabler"
+msgstr "Cache Enabler"

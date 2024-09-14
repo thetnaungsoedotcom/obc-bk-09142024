@@ -1,0 +1,75 @@
+## WordPress core files
+/wp-admin/
+/wp-includes/
+
+## Sensitive files
+# wp-config.php
+# .htaccess
+# robots.txt
+
+## WordPress content directories (uploads, plugins, themes)
+# wp-content/uploads/
+# wp-content/plugins/
+# wp-content/cache/
+# wp-content/languages/
+
+## Exclude specific plugins or themes if necessary (example for a specific plugin)
+# wp-content/plugins/some-plugin/
+
+## Exclude custom themes if you don't want to track theme updates
+# wp-content/themes/your-theme/
+
+## Exclude package managers directories
+/node_modules/
+/vendor/
+
+# Example themes
+/wp-content/themes/twenty*/
+
+## ignore everything in the root except the "wp-content" directory.
+# !wp-content/
+
+## ignore everything in the "wp-content" directory, except:
+## "mu-plugins", "plugins", "themes" directory
+# wp-content/*
+# !wp-content/mu-plugins/
+# !wp-content/plugins/
+# !wp-content/themes/
+
+## ignore these plugins
+# wp-content/plugins/hello.php
+
+## ignore specific themes
+# wp-content/themes/twenty*/
+
+## ignore node dependency directories
+# node_modules/
+
+## IDE and editor files
+*.log
+*.sql
+*.sqlite
+*.env
+*Thumbs.db
+*.sass-cache
+*.idea
+*.vscode
+
+## Exclude backups
+*.tar
+# *.zip
+*.gz
+*.backup
+
+## Exclude composer dependencies
+composer.phar
+composer.lock
+
+## PHPStorm project files
+/.idea/
+
+## Mac OS file
+.DS_Store
+
+## wp-cli local config file
+wp-cli.local.yml

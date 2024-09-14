@@ -1,0 +1,53 @@
+@font-face {
+    font-family:'Pyidaungsu';
+    src:local('../font/Pyidaungsu_Regular.ttf'), url('../font/Pyidaungsu_Regular.ttf')format("truetype");
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.3);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body#tinymce.wp-editor {
+    font-family: 'Pyidaungsu', 'Segoe UI', sans-serif !important;
+}
+
+body {
+    font-family: 'Pyidaungsu', 'Segoe UI', sans-serif !important;
+}
+
+.wp-editor-area {
+    font-family: 'Pyidaungsu', 'Segoe UI', sans-serif !important;
+}
+
+input, 
+textarea, 
+select {
+    font-family: 'Pyidaungsu', 'Segoe UI', sans-serif !important;
+}
+
+#wp-content-wrap .mce-tinymce.mce-container.mce-panel iframe * {
+    font-family: 'Pyidaungsu', 'Segoe UI', sans-serif !important;
+}
+.mce-content-body p,
+.mce-content-body div,
+.mce-content-body h1,
+.mce-content-body h2,
+.mce-content-body h3,
+.mce-content-body h4,
+.mce-content-body h5,
+.mce-content-body h6 {
+    line-height: inherit;
+    font-family: 'Pyidaungsu', "Segoe UI",!important;
+}
+
+.mce-item-table, .mce-item-table td, .mce-item-table th, .mce-item-table caption {
+    font-family: 'Pyidaungsu', "Segoe UI", sans-serif !important;
+}
+
+.editor-styles-wrapper p, .editor-styles-wrapper {
+    font-family: 'Pyidaungsu', "Segoe UI", sans-serif !important;
+}
+
+.row-title {
+    font-family: 'Pyidaungsu', "Segoe UI", sans-serif !important;
+}

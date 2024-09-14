@@ -1,0 +1,268 @@
+# Translation of Plugins - Cache Enabler - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Cache Enabler - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-10 08:45:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.9\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Cache Enabler - Stable (latest release)\n"
+
+#: inc/cache_enabler_cli.class.php:92
+msgid "Sites cache cleared."
+msgstr "站点缓存已清除。"
+
+#: inc/cache_enabler_cli.class.php:82
+msgid "Page cache cleared."
+msgstr "页面缓存已清除。"
+
+#: inc/cache_enabler_cli.class.php:80
+msgid "Pages cache cleared."
+msgstr "页面缓存已清除。"
+
+#: inc/cache_enabler.class.php:2755
+msgid "Save Changes and Clear Site Cache"
+msgstr "保存更改并清除站点缓存"
+
+#: inc/cache_enabler.class.php:2754
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: inc/cache_enabler.class.php:2744
+msgid "A regex matching cookies that should bypass the cache."
+msgstr "与应绕过缓存的 cookie 匹配的正则表达式。"
+
+#: inc/cache_enabler.class.php:2741
+msgid "Cookies"
+msgstr "Cookies"
+
+#: inc/cache_enabler.class.php:2736 inc/cache_enabler.class.php:2746
+msgid "Default if unset:"
+msgstr "如果未设置则默认："
+
+#: inc/cache_enabler.class.php:2734
+msgid "A regex matching query strings that should bypass the cache."
+msgstr "与应绕过缓存的查询字符串匹配的正则表达式。"
+
+#: inc/cache_enabler.class.php:2731
+msgid "Query Strings"
+msgstr "查询字符串"
+
+#: inc/cache_enabler.class.php:2725
+msgid "A regex matching page paths that should bypass the cache."
+msgstr "匹配应该绕过缓存的页面路径的正则表达式。"
+
+#: inc/cache_enabler.class.php:2722
+msgid "Page Paths"
+msgstr "页面路径"
+
+#: inc/cache_enabler.class.php:2717 inc/cache_enabler.class.php:2726
+#: inc/cache_enabler.class.php:2735 inc/cache_enabler.class.php:2745
+msgid "Example:"
+msgstr "示例："
+
+#. translators: %s: ,
+#: inc/cache_enabler.class.php:2712
+msgid "Post IDs separated by a %s that should bypass the cache."
+msgstr "由 %s 分隔的帖子 ID 应绕过缓存。"
+
+#: inc/cache_enabler.class.php:2705
+msgid "Post IDs"
+msgstr "帖子 ID"
+
+#: inc/cache_enabler.class.php:2701
+msgid "Cache Exclusions"
+msgstr "缓存排除"
+
+#. translators: %s: Form field control for 'excluding' or 'including' inline
+#. CSS and JavaScript during HTML minification.
+#: inc/cache_enabler.class.php:2690
+msgid "Minify HTML in cached pages %s inline CSS and JavaScript."
+msgstr "缩小缓存页面中的 HTML %s 内联 CSS 和 JavaScript。"
+
+#: inc/cache_enabler.class.php:2681
+msgid "including"
+msgstr "包括"
+
+#: inc/cache_enabler.class.php:2680
+msgid "excluding"
+msgstr "排除"
+
+#: inc/cache_enabler.class.php:2673
+msgid "Minification"
+msgstr "缩小"
+
+#: inc/cache_enabler.class.php:2668
+msgid "Create a cached version pre-compressed with Gzip."
+msgstr "创建使用 Gzip 预压缩的缓存版本。"
+
+#: inc/cache_enabler.class.php:2668
+msgid "Create a cached version pre-compressed with Brotli or Gzip."
+msgstr "创建使用 Brotli 或 Gzip 预压缩的缓存版本。"
+
+#: inc/cache_enabler.class.php:2661
+msgid "Create a cached version for mobile devices."
+msgstr "为移动设备创建缓存版本。"
+
+#. translators: %s: Optimus
+#: inc/cache_enabler.class.php:2651
+msgid "Create a cached version for WebP support. Convert your images to WebP with %s."
+msgstr "创建一个缓存版本以支持 WebP。使用 %s 将您的图像转换为 WebP。"
+
+#: inc/cache_enabler.class.php:2645
+msgid "Versions"
+msgstr "版本"
+
+#: inc/cache_enabler.class.php:2640
+msgid "Clear the site cache if a plugin has been activated or deactivated."
+msgstr "如果插件已激活或停用，请清除站点缓存。"
+
+#: inc/cache_enabler.class.php:2633
+msgid "Clear the site cache if a user has been added, updated, or deleted (instead of the user cache)."
+msgstr "如果已添加、更新或删除用户，则清除站点缓存（而不是用户缓存）。"
+
+#: inc/cache_enabler.class.php:2626
+msgid "Clear the site cache if a term has been added, updated, or deleted (instead of the term cache)."
+msgstr "如果已添加、更新或删除分类项（而不是分类项缓存），请清除站点缓存。"
+
+#: inc/cache_enabler.class.php:2619
+msgid "Clear the site cache if a comment has been posted, updated, spammed, or trashed (instead of the comment cache)."
+msgstr "如果评论已发布、更新、垃圾邮件或已删除，请清除站点缓存（而不是评论缓存）。"
+
+#: inc/cache_enabler.class.php:2612
+msgid "Clear the site cache if any post type has been published, updated, or trashed (instead of the post cache)."
+msgstr "如果已发布、更新或删除任何帖子类型（而不是帖子缓存），请清除站点缓存。"
+
+#: inc/cache_enabler.class.php:2609
+msgid "Clearing"
+msgstr "清除中"
+
+#. translators: %s: Form field input for number of hours.
+#: inc/cache_enabler.class.php:2601
+msgid "Cached pages expire %s hours after being created."
+msgstr "缓存页面在创建后 %s 小时后过期。"
+
+#: inc/cache_enabler.class.php:2593
+msgid "Expiration"
+msgstr "过期时间"
+
+#: inc/cache_enabler.class.php:2589
+msgid "Cache Behavior"
+msgstr "缓存行为"
+
+#. translators: %s: KeyCDN
+#: inc/cache_enabler.class.php:2577
+msgid "Combine Cache Enabler with %s for even better WordPress performance and achieve the next level of caching with a CDN."
+msgstr "将 Cache Enabler 与 %s 结合使用可实现更好的 WordPress 性能，并通过 CDN 实现更高级别的缓存。"
+
+#. translators: 1. Cache Enabler 2. define( 'WP_CACHE', true ); 3.
+#. wp-config.php 4. require_once ABSPATH . 'wp-settings.php';
+#: inc/cache_enabler.class.php:2562
+msgid "%1$s requires %2$s to be set. Please set this in the %3$s file (must be before %4$s)."
+msgstr "%1$s 需要设置 %2$s。请在 %3$s 文件中设置此项（必须位于 %4$s 之前）。"
+
+#: inc/cache_enabler.class.php:2394 inc/cache_enabler.class.php:2554
+msgid "Cache Enabler Settings"
+msgstr "Cache Enabler 设置"
+
+#. translators: 1. Autoptimize 2. Cache Enabler Settings
+#: inc/cache_enabler.class.php:2389
+msgid "%1$s HTML optimization is enabled. Please disable HTML minification in the %2$s."
+msgstr "%1$s HTML 优化已启用。请在 %2$s 中禁用 HTML 缩小。"
+
+#: inc/cache_enabler.class.php:2376
+msgid "file permissions"
+msgstr "文件权限"
+
+#. translators: 1. Cache Enabler 2. 755 3. /path/to/wp-content/cache 4. file
+#. permissions
+#: inc/cache_enabler.class.php:2369
+msgid "%1$s requires write permissions %2$s in the %3$s directory. Please change the %4$s."
+msgstr "%1$s 需要 %3$s 目录中的写入权限 %2$s。请更改%4$s。"
+
+#: inc/cache_enabler.class.php:2354
+msgid "Permalink Settings"
+msgstr "固定链接设置"
+
+#. translators: 1. Cache Enabler 2. Permalink Settings
+#: inc/cache_enabler.class.php:2349
+msgid "%1$s requires a custom permalink structure. Please enable a custom structure in the %2$s."
+msgstr "%1$s 需要自定义永久链接结构。请在 %2$s 中启用自定义结构。"
+
+#. translators: 1. Cache Enabler 2. /path/to/index.php 3.
+#. CACHE_ENABLER_INDEX_FILE 4. wp-config.php
+#: inc/cache_enabler.class.php:2334
+msgid "%1$s was unable to find the WordPress installation directory index file at %2$s. Please define the %3$s constant in your %4$s file as the full path to the location of this file."
+msgstr "%1$s 无法在 %2$s 找到 WordPress 安装目录索引文件。请将 %4$s 文件中的 %3$s 常量定义为该文件位置的完整路径。"
+
+#. translators: 1. Cache Enabler 2. advanced-cache.php 3.
+#. /path/to/wp-content/plugins/cache-enabler 4. /path/to/wp-content
+#: inc/cache_enabler.class.php:2319
+msgid "%1$s was unable to create the required %2$s drop-in file. You can manually create it by locating the sample file in the %3$s directory, editing it as needed, and then saving it in the %4$s directory."
+msgstr "%1$s 无法创建所需的 %2$s 嵌入式文件。您可以手动创建它，方法是在 %3$s 目录中找到示例文件，根据需要对其进行编辑，然后将其保存在 %4$s 目录中。"
+
+#. translators: 1. Cache Enabler 2. WordPress version (e.g. 5.1)
+#: inc/cache_enabler.class.php:2306
+msgid "%1$s requires WordPress %2$s or higher to function properly. Please update WordPress or disable the plugin."
+msgstr "%1$s 需要 WordPress %2$s 或更高版本才能正常运行。请更新 WordPress 或禁用该插件。"
+
+#. translators: 1. Cache Enabler 2. PHP version (e.g. 5.6)
+#: inc/cache_enabler.class.php:2293
+msgid "%1$s requires PHP %2$s or higher to function properly. Please update PHP or disable the plugin."
+msgstr "%1$s 需要 PHP %2$s 或更高版本才能正常运行。请更新 PHP 或禁用该插件。"
+
+#: inc/cache_enabler.class.php:1377 inc/cache_enabler_cli.class.php:70
+#: inc/cache_enabler_cli.class.php:94
+msgid "Site cache cleared."
+msgstr "站点缓存已清除。"
+
+#: inc/cache_enabler.class.php:1377 inc/cache_enabler_cli.class.php:70
+msgid "Network cache cleared."
+msgstr "网络缓存已清除。"
+
+#: inc/cache_enabler.class.php:1255 inc/cache_enabler.class.php:1256
+msgid "Clear Page Cache"
+msgstr "清除页面缓存"
+
+#: inc/cache_enabler.class.php:1231
+msgid "Clear Site Cache"
+msgstr "清除站点缓存"
+
+#: inc/cache_enabler.class.php:1231
+msgid "Clear Network Cache"
+msgstr "清除网络缓存"
+
+#: inc/cache_enabler.class.php:1209
+msgid "Cache Size"
+msgstr "缓存大小"
+
+#: inc/cache_enabler.class.php:1208
+msgid "Empty"
+msgstr "空"
+
+#: inc/cache_enabler.class.php:1178
+msgid "Documentation"
+msgstr "文档"
+
+#: inc/cache_enabler.class.php:1151
+msgid "Settings"
+msgstr "设置"
+
+#. Author URI of the plugin
+msgid "https://www.keycdn.com"
+msgstr "https://www.keycdn.com"
+
+#. Author of the plugin
+msgid "KeyCDN"
+msgstr "KeyCDN"
+
+#. Description of the plugin
+msgid "Simple and fast WordPress caching plugin."
+msgstr "【缓存启用器】简单快速的 WordPress 缓存插件。"
+
+#. Plugin Name of the plugin
+msgid "Cache Enabler"
+msgstr "Cache Enabler"

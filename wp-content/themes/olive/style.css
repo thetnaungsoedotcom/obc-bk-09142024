@@ -1,0 +1,33 @@
+/*
+Theme Name: TNS Theme-One
+Author: B360 Web Dev Team
+Author URI: https://www.b360mm.com
+Description: Be Brave, Be Bold, Be Big
+Version: 1.0
+Text Domain: tnsthemeone
+Tags: b360-myanmar, digital-marketing, marketing-agency, marketing-consulting-firm, best-of-myanmar-agency
+
+TNS Theme-One Custom Theme, (C) 2022 b360mm.com
+TNS Theme-One is distributed under the terms of the GNU GPL.
+*/
+
+
+
+
+
+
+/*
+ |-----------------------------------------------------------------------------------------------------------------------
+ | Minify CSS
+ |-----------------------------------------------------------------------------------------------------------------------
+ |
+ */
+/* @import url("assets/css/src/css-dist/main.min.css"); */
+
+/*
+ |-----------------------------------------------------------------------------------------------------------------------
+ | Main CSS withour Minify CSS
+ |-----------------------------------------------------------------------------------------------------------------------
+ |
+ */
+@import url("assets/css/src/main.css");

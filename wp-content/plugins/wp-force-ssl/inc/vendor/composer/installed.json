@@ -1,0 +1,47 @@
+{
+    "packages": [
+        {
+            "name": "yourivw/leclient",
+            "version": "1.3.0",
+            "version_normalized": "1.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yourivw/LEClient.git",
+                "reference": "6c1fa9446173ff6bb41934d3ad07f9b960c2c0c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yourivw/LEClient/zipball/6c1fa9446173ff6bb41934d3ad07f9b960c2c0c4",
+                "reference": "6c1fa9446173ff6bb41934d3ad07f9b960c2c0c4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "psr/log": "^1.1"
+            },
+            "time": "2021-06-20T10:51:42+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "LEClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP LetsEncrypt client library for ACME v2",
+            "support": {
+                "issues": "https://github.com/yourivw/LEClient/issues",
+                "source": "https://github.com/yourivw/LEClient/tree/1.3.0"
+            },
+            "install-path": "../yourivw/leclient"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
